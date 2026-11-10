@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "status": "passed",
+  "source_revision": "fe96641e94a596551e24f26661cb7ca73f6d90d1",
+  "wheel": {
+    "filename": "experiment_kit-0.1.0-py3-none-any.whl",
+    "sha256": "e9fa369cb5bd38f562c56cd8d09fc7bc85cafe3156e9f4656b9dd6a5d6bda761",
+    "size_bytes": 5308
+  },
+  "standalone": {
+    "status": "passed",
+    "distribution": "experiment-kit",
+    "profile": null,
+    "installed": {
+      "experiment-kit": {
+        "version": "0.1.0",
+        "module": "<environment>/lib/python3.14/site-packages/experiment_kit/__init__.py"
+      }
+    },
+    "cli_checks": [
+      "CPU record"
+    ],
+    "sdk_transport": "not used"
+  },
+  "tools": {
+    "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "uv": "uv 0.10.3 (Homebrew 2026-02-16)",
+    "setuptools": [
+      "84.2.1"
+    ]
+  },
+  "method": "Isolated PEP 517 wheel build and fresh runtime environment; Python -I checks outside checkout, no editable install or sibling imports.",
+  "scope": "Only this component was installed in its standalone runtime environment.",
+  "full_evidence": "https://github.com/alvarovillalbaa/lab/pull/2",
+  "limits": [
+    "Python 3.14.7 on this Mac was exercised; no cross-platform/version matrix is claimed.",
+    "SDK HTTP transport is mocked; no live service, provider, model, GPU, database, deployment, or scientific performance proof."
+  ]
+}
