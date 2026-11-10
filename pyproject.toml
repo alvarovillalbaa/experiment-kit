@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "experiment-kit"
+version = "0.1.0"
+description = "Experiment records and separate LLM validation profiles."
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/alvarovillalbaa/experiment-kit"
+
+[project.scripts]
+experiment-kit = "experiment_kit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

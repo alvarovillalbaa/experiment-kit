@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "source_repository": "alvarovillalbaa/lab",
+  "source_revision": "ba67e510bab2703b1042993744ce099490221c1f",
+  "original_main": "36bb3839f1bc166fa54824fd8457b28ca5189dae",
+  "history_policy": "Original history remains in Lab; extraction commit preserves original bytes; subsequent commits adapt interfaces.",
+  "sources": [
+    {
+      "path": "docs/specs/steps.md",
+      "section": 0,
+      "start_line": 1,
+      "end_line": 26
+    },
+    {
+      "path": "docs/specs/steps.md",
+      "section": 3,
+      "start_line": 75,
+      "end_line": 96
+    },
+    {
+      "path": "docs/IMPLEMENTATION_BACKLOG.md",
+      "sections": [
+        "Foundation"
+      ]
+    },
+    {
+      "path": "src/lab/validation.py",
+      "destination": "src/experiment_kit/validation.py",
+      "source_sha256": "27c0cc0399a8a6d18cbd32f476ca72e8563929b08ea50e07019d62055d15029b"
+    },
+    {
+      "path": "tests/test_validation.py",
+      "destination": "tests/test_validation.py",
+      "source_sha256": "67be29cc7fe7a38cd2cbe561e3471f13ee2a02aff02b855585818a9fc5a8524e"
+    },
+    {
+      "path": "reports/templates/run_card.yaml",
+      "destination": "templates/llm_run_card.yaml",
+      "source_sha256": "da78e6f6bc81a8a0920a5f6b3e628511c21cfc741137d7dd183b18e6a29d60e9"
+    }
+  ]
+}

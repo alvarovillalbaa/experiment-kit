@@ -120,4 +120,3 @@ def _non_negative_float(obj: dict[str, Any], key: str, path: str, issues: list[s
     value = obj.get(key)
     if not isinstance(value, (int, float)) or value < 0:
         issues.append(f"{path}.{key} must be a non-negative number")
-
